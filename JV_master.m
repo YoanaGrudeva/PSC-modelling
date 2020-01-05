@@ -28,7 +28,11 @@ end
 
 toc 
 
-%figure(1)
-%plot(t,J_list);
 figure(2)
+plot(t,J_list);
+xlabel('t')
+ylabel('J')
+figure(3)
 plot(Al,J_list);
+xlabel('A (V)')
+ylabel('J')

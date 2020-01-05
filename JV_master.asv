@@ -28,7 +28,7 @@ end
 
 toc 
 
-%figure(1)
+figure(1)
 %plot(t,J_list);
 figure(2)
 plot(Al,J_list);
